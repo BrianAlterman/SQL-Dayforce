@@ -1,0 +1,7 @@
+-- Creating Custom Fields with SQL using Report Designer
+-- In person class 08232023
+-- Microsoft Transact-SQL used by Cerdidian 
+
+-- Pull only last 4 of SSN
+RIGHT(Employee.SocialSecurityNumber,4)
+;
